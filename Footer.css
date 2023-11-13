@@ -1,0 +1,88 @@
+/* Footer */
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1919;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 60px;
+  }
+  .footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    background: #101010;
+  }
+  #op{
+    color: white;
+    text-align: start;
+  }
+  .footer-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 10px 0;
+  }
+  .footer-items ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  .footer-items li a {
+    color: #ddd;
+    font-size: 0.875rem;
+  }
+  .footer-items li a:hover {
+    text-decoration: underline;
+  }
+  .language-container44 {
+    position: relative;
+  }
+  
+  .language-button44 {
+    margin-left: 200px;
+    width: 130px;
+    background: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(106, 96, 96);
+  }
+  #bot{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ff0000;
+    font-size: 20px;
+    margin-left: 200px;
+  }
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 120px;
+    display: none;
+    border: 1px solid #ccc;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+  
+  .language-container44:hover .submenu {
+    display: block;
+  }
+  
+  .submenu div {
+    padding: 10px;
+    border-bottom: 1px solid #777777;
+  }
+  
+  .submenu div:last-child {
+    border-bottom: none;
+  }
+  
+  .submenu div:hover {
+    background-color: #f0f0f0;
+    color: #ff0000;
+  }

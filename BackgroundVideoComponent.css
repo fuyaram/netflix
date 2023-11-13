@@ -1,0 +1,156 @@
+
+.ui {
+  margin: 0%;
+    position: relative;
+    width: 100%;
+    height: 740px;
+    overflow: hidden;
+}
+
+.ui::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 740px;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%);
+    mix-blend-mode: multiply;
+}
+
+.ui::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/77d35039-751f-4c3e-9c8d-1240c1ca6188/cf244808-d722-428f-80a9-052acdf158ec/IN-en-20231106-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 740px;
+    z-index: -1;
+}
+
+.navbar {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -46rem;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* Change the background color as needed */
+    color: white; /* Change the text color as needed */
+  }
+  
+ 
+  .navbar-center {
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the logo is on top of the background */
+}
+
+.navbar-logo img {
+   width: 150px;
+    height: auto;
+}
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    margin-left: 60rem;
+  }
+  .language-container {
+    position: relative;
+  }
+  
+  .language-button {
+    width: 130px;
+    background: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(106, 96, 96);
+  }
+  
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 120px;
+    display: none;
+    border: 1px solid #ccc;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+  
+  .language-container:hover .submenu {
+    display: block;
+  }
+  
+  .submenu div {
+    padding: 10px;
+    border-bottom: 1px solid #777777;
+  }
+  
+  .submenu div:last-child {
+    border-bottom: none;
+  }
+  
+  .submenu div:hover {
+    background-color: #f0f0f0;
+    color: #ff0000;
+  }
+  
+  .login-button {
+   margin-left: 10px;
+    background-color: #ff0000;
+    /*Changethebackgroundcoloroftheloginbuttonasneeded*/color: white;
+    border: none;
+    width: 80px;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    font-weight: lighter;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.ttitlelo {
+   margin-top: 150px;
+   position: relative;
+  
+  }
+  
+  #tit,
+  #titt,
+  #tittt {
+    position: relative;
+    z-index: 1;
+    color: #fff; /* Set your desired text color */
+  }
+  
+  #tit{
+    color: #ffffff;
+    text-align: center;
+    font-size: 55px;
+  }
+  #titt{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  #tittt{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+  }

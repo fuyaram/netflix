@@ -1,0 +1,36 @@
+.okgg{
+    margin-top: -70px;
+}
+.sec11{
+    max-width: 100%;
+   height: 600px;
+   background-color: black;
+   margin-bottom: 80px;
+}
+#img1{
+    margin-top: -150px;
+    width: 700px;
+    height: 500px;
+    margin-left: 100px;
+}
+.god{
+    margin-top: -100px;
+}
+#sectito{
+    color: azure;
+    font-size: 80px;
+}
+#sectitt0{
+    color: azure;
+    font-size: 30px;
+}
+.video-container900{
+    margin-left: 220px;
+    z-index: 3;
+    margin-top: -460px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

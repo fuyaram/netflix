@@ -1,0 +1,40 @@
+.search-container99 {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .search99 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  #se{
+   margin-top: -0px;
+  }
+  ::placeholder{
+    color: #fff;
+    font-size: 20PX;
+  }
+  .inputho {
+    padding: 8px;
+    width: 430px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ccc;
+  }
+  .search-buttonjay {
+    height: 60px;
+    width: 230px; /* Set the width to 120px */
+    margin-left: 10px;
+    padding: 12px 16px; /* Set padding to increase button size */
+    background-color: #ff0000; /* Set your desired button color */
+    color: #fff; /* Set your desired text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
